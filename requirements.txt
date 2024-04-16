@@ -111,3 +111,4 @@ plyer
 Flask-Ask
 emoji
 PyAutoGUI
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
