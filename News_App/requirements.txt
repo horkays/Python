@@ -4,3 +4,4 @@ gunicorn ==21.2.0
 simple-websocket
 flask-sock 
 yfinance
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
