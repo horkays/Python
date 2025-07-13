@@ -105,9 +105,10 @@ psutil==5.9.8
 mediapipe==0.10.9
 rich==13.7.0
 httplib2==0.22.0
-protobuf==4.25.2
+protobuf==4.25.8
 colorama==0.4.6
 plyer==2.1.0
 Flask-Ask==0.9.8
 emoji==2.10.0
 PyAutoGUI==0.9.54
+pycares>=4.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
