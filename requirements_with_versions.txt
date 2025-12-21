@@ -111,3 +111,5 @@ plyer==2.1.0
 Flask-Ask==0.9.8
 emoji==2.10.0
 PyAutoGUI==0.9.54
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pymdown-extensions>=10.16.1 # not directly required, pinned by Snyk to avoid a vulnerability
