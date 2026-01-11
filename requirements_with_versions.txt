@@ -1,5 +1,5 @@
 pafy==0.5.5
-aiohttp==3.9.3
+aiohttp==3.13.3
 fuzzywuzzy==0.18.0
 hupper==1.12
 seaborn==0.13.1
@@ -111,3 +111,4 @@ plyer==2.1.0
 Flask-Ask==0.9.8
 emoji==2.10.0
 PyAutoGUI==0.9.54
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
